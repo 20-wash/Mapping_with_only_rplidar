@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/biswash/workspace/map_rplidar/install/csm/include/**",
+        "/home/biswash/navigation2_tutorials/install/nav2_straightline_planner/include/**",
+        "/home/biswash/navigation2_tutorials/install/nav2_sms_behavior/include/**",
+        "/home/biswash/navigation2_tutorials/install/nav2_pure_pursuit_controller/include/**",
+        "/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles/include/**",
+        "/home/biswash/navigation2_tutorials/install/lane_edge_costmap_layer/include/**",
+        "/home/biswash/navigation2_tutorials/install/lane_costmap_plugin_original/include/**",
+        "/home/biswash/navigation2_tutorials/install/lane_costmap_plugin_01/include/**",
+        "/home/biswash/navigation2_tutorials/install/lane_costmap_plugin/include/**",
+        "/home/biswash/navigation2_tutorials/install/custom_nav2_layers/include/**",
+        "/home/biswash/navigation2_tutorials/install/custom_dynamic_circle/include/**",
+        "/home/biswash/navigation2_tutorials/install/custom_costmap_layer/include/**",
+        "/home/biswash/navigation2_tutorials/install/costmap_image_layer_1/include/**",
+        "/home/biswash/navigation2_tutorials/install/costmap_image_layer/include/**",
+        "/home/biswash/navigation2_tutorials/install/camera_costmap_plugin/include/**",
+        "/home/biswash/workspace/install/pointcloud_to_laserscan/include/**",
+        "/home/biswash/workspace/turtlebot3_ws/install/turtlebot3_gazebo_1/include/**",
+        "/home/biswash/ws_livox/install/fast_lio/include/**",
+        "/home/biswash/ws_livox/install/livox_ros_driver2/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/biswash/workspace/map_rplidar/src/rf2o_laser_odometry/include/**",
+        "/home/biswash/workspace/map_rplidar/src/rplidar_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

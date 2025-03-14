@@ -1,0 +1,80 @@
+[0.098s] Invoking command in '/home/biswash/workspace/map_rplidar/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake /home/biswash/workspace/map_rplidar/src/csm -DCMAKE_INSTALL_PREFIX=/home/biswash/workspace/map_rplidar/install/csm
+[1.041s] -- The C compiler identification is GNU 11.4.0
+[1.042s] -- The CXX compiler identification is GNU 11.4.0
+[1.042s] -- Detecting C compiler ABI info
+[1.042s] -- Detecting C compiler ABI info - done
+[1.042s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.042s] -- Detecting C compile features
+[1.043s] -- Detecting C compile features - done
+[1.043s] -- Detecting CXX compiler ABI info
+[1.044s] -- Detecting CXX compiler ABI info - done
+[1.045s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.045s] -- Detecting CXX compile features
+[1.045s] -- Detecting CXX compile features - done
+[1.045s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.152s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.615s] -- Configuring done
+[1.627s] -- Generating done
+[1.631s] -- Build files have been written to: /home/biswash/workspace/map_rplidar/build/csm
+[1.638s] Invoked command in '/home/biswash/workspace/map_rplidar/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake /home/biswash/workspace/map_rplidar/src/csm -DCMAKE_INSTALL_PREFIX=/home/biswash/workspace/map_rplidar/install/csm
+[1.642s] Invoking command in '/home/biswash/workspace/map_rplidar/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --build /home/biswash/workspace/map_rplidar/build/csm -- -j12 -l12
+[1.766s] [  4%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o[0m
+[1.766s] [  8%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o[0m
+[1.767s] [ 12%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o[0m
+[1.767s] [ 16%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o[0m
+[1.768s] [ 25%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o[0m
+[1.770s] [ 25%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o[0m
+[1.773s] [ 29%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/clustering.cpp.o[0m
+[1.784s] [ 33%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/orientation.cpp.o[0m
+[1.789s] [ 37%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl.cpp.o[0m
+[1.798s] [ 41%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_misc.cpp.o[0m
+[1.825s] [ 45%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_ops.cpp.o[0m
+[1.831s] [ 50%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_conversions.cpp.o[0m
+[4.610s] [ 54%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc.cpp.o[0m
+[4.716s] [ 58%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc_utils.cpp.o[0m
+[4.747s] [ 62%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp.cpp.o[0m
+[4.783s] [ 66%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_dumb.cpp.o[0m
+[4.873s] [ 70%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_covariance.cpp.o[0m
+[4.886s] [ 75%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_tricks.cpp.o[0m
+[4.981s] [ 79%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_debug.cpp.o[0m
+[5.075s] [ 83%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_loop.cpp.o[0m
+[5.139s] [ 87%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options.cpp.o[0m
+[5.143s] [ 91%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options_interface.cpp.o[0m
+[5.146s] [ 95%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_outliers.cpp.o[0m
+[25.175s] [100%] [32m[1mLinking CXX shared library libcsm.so[0m
+[25.714s] [100%] Built target csm
+[25.743s] Invoked command in '/home/biswash/workspace/map_rplidar/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --build /home/biswash/workspace/map_rplidar/build/csm -- -j12 -l12
+[25.745s] Invoking command in '/home/biswash/workspace/map_rplidar/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --install /home/biswash/workspace/map_rplidar/build/csm
+[25.756s] -- Install configuration: ""
+[25.756s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/lib/libcsm.so
+[25.764s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/include/..//include
+[25.765s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/include/..//include/csm
+[25.765s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/include/..//include/csm/restrict.h
+[25.765s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/include/..//include/csm/csm.h
+[25.765s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/include/..//include/csm/laser_data.h
+[25.765s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/include/..//include/csm/algos.h
+[25.765s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/include/..//include/csm/laser_data_inline.h
+[25.765s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/include/..//include/gsl_eigen
+[25.766s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/include/..//include/gsl_eigen/gsl_eigen.h
+[25.766s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/include/../gsl_eigen
+[25.766s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/include/../gsl_eigen/gsl_eigen.h
+[25.766s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/environment/library_path.sh
+[25.766s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/environment/library_path.dsv
+[25.766s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/ament_index/resource_index/package_run_dependencies/csm
+[25.766s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/ament_index/resource_index/parent_prefix_path/csm
+[25.766s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/environment/ament_prefix_path.sh
+[25.767s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/environment/ament_prefix_path.dsv
+[25.767s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/environment/path.sh
+[25.767s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/environment/path.dsv
+[25.767s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/local_setup.bash
+[25.767s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/local_setup.sh
+[25.767s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/local_setup.zsh
+[25.767s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/local_setup.dsv
+[25.767s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/package.dsv
+[25.768s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/ament_index/resource_index/packages/csm
+[25.768s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.768s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake
+[25.768s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/cmake/csmConfig.cmake
+[25.768s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/cmake/csmConfig-version.cmake
+[25.768s] -- Installing: /home/biswash/workspace/map_rplidar/install/csm/share/csm/package.xml
+[25.772s] Invoked command in '/home/biswash/workspace/map_rplidar/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --install /home/biswash/workspace/map_rplidar/build/csm

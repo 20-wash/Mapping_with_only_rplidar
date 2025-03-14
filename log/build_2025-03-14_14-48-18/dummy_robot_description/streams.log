@@ -1,0 +1,20 @@
+[1.692s] Invoking command in '/home/biswash/workspace/map_rplidar/src/dummy_robot_description': PYTHONPATH=/home/biswash/workspace/map_rplidar/build/dummy_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dummy_robot_description build --build-base /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build install --record /home/biswash/workspace/map_rplidar/build/dummy_robot_description/install.log --single-version-externally-managed install_data
+[2.082s] running egg_info
+[2.083s] writing ../../build/dummy_robot_description/dummy_robot_description.egg-info/PKG-INFO
+[2.083s] writing dependency_links to ../../build/dummy_robot_description/dummy_robot_description.egg-info/dependency_links.txt
+[2.084s] writing entry points to ../../build/dummy_robot_description/dummy_robot_description.egg-info/entry_points.txt
+[2.084s] writing requirements to ../../build/dummy_robot_description/dummy_robot_description.egg-info/requires.txt
+[2.084s] writing top-level names to ../../build/dummy_robot_description/dummy_robot_description.egg-info/top_level.txt
+[2.087s] reading manifest file '../../build/dummy_robot_description/dummy_robot_description.egg-info/SOURCES.txt'
+[2.088s] writing manifest file '../../build/dummy_robot_description/dummy_robot_description.egg-info/SOURCES.txt'
+[2.088s] running build
+[2.088s] running build_py
+[2.089s] running install
+[2.089s] running install_lib
+[2.091s] running install_data
+[2.091s] running install_egg_info
+[2.094s] removing '/home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages/dummy_robot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.094s] Copying ../../build/dummy_robot_description/dummy_robot_description.egg-info to /home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages/dummy_robot_description-0.0.0-py3.10.egg-info
+[2.095s] running install_scripts
+[2.125s] writing list of installed files to '/home/biswash/workspace/map_rplidar/build/dummy_robot_description/install.log'
+[2.162s] Invoked command in '/home/biswash/workspace/map_rplidar/src/dummy_robot_description' returned '0': PYTHONPATH=/home/biswash/workspace/map_rplidar/build/dummy_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dummy_robot_description build --build-base /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build install --record /home/biswash/workspace/map_rplidar/build/dummy_robot_description/install.log --single-version-externally-managed install_data

@@ -1,0 +1,52 @@
+[0.974s] Invoking command in '/home/biswash/workspace/map_rplidar/build/transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake /home/biswash/workspace/map_rplidar/src/transforms -DCMAKE_INSTALL_PREFIX=/home/biswash/workspace/map_rplidar/install/transforms
+[1.083s] -- The C compiler identification is GNU 11.4.0
+[1.183s] -- The CXX compiler identification is GNU 11.4.0
+[1.199s] -- Detecting C compiler ABI info
+[1.341s] -- Detecting C compiler ABI info - done
+[1.358s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.359s] -- Detecting C compile features
+[1.359s] -- Detecting C compile features - done
+[1.366s] -- Detecting CXX compiler ABI info
+[1.532s] -- Detecting CXX compiler ABI info - done
+[1.544s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.545s] -- Detecting CXX compile features
+[1.546s] -- Detecting CXX compile features - done
+[1.557s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.235s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.995s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.566s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.584s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.588s] -- Added test 'lint_cmake' to check CMake code style
+[3.596s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.604s] -- Added test 'xmllint' to check XML markup files
+[3.611s] -- Configuring done
+[3.620s] -- Generating done
+[3.626s] -- Build files have been written to: /home/biswash/workspace/map_rplidar/build/transforms
+[3.645s] Invoked command in '/home/biswash/workspace/map_rplidar/build/transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake /home/biswash/workspace/map_rplidar/src/transforms -DCMAKE_INSTALL_PREFIX=/home/biswash/workspace/map_rplidar/install/transforms
+[3.656s] Invoking command in '/home/biswash/workspace/map_rplidar/build/transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --build /home/biswash/workspace/map_rplidar/build/transforms -- -j12 -l12
+[3.905s] Invoked command in '/home/biswash/workspace/map_rplidar/build/transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --build /home/biswash/workspace/map_rplidar/build/transforms -- -j12 -l12
+[3.957s] Invoking command in '/home/biswash/workspace/map_rplidar/build/transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --install /home/biswash/workspace/map_rplidar/build/transforms
+[3.997s] -- Install configuration: ""
+[3.997s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/launch
+[3.998s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/launch/__pycache__
+[3.998s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/launch/__pycache__/tfsetup_launch.cpython-38.pyc
+[4.002s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/launch/__pycache__/tf_setup_launch.cpython-310.pyc
+[4.003s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/launch/__pycache__/tf_setup_launch.cpython-38.pyc
+[4.003s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/launch/__pycache__/new_launch.cpython-38.pyc
+[4.007s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/launch/tf_setup_launch.py
+[4.007s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/ament_index/resource_index/package_run_dependencies/transforms
+[4.008s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/ament_index/resource_index/parent_prefix_path/transforms
+[4.009s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/environment/ament_prefix_path.sh
+[4.009s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/environment/ament_prefix_path.dsv
+[4.013s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/environment/path.sh
+[4.015s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/environment/path.dsv
+[4.016s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/local_setup.bash
+[4.016s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/local_setup.sh
+[4.016s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/local_setup.zsh
+[4.016s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/local_setup.dsv
+[4.016s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/package.dsv
+[4.020s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/ament_index/resource_index/packages/transforms
+[4.020s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/cmake/transformsConfig.cmake
+[4.022s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/cmake/transformsConfig-version.cmake
+[4.022s] -- Installing: /home/biswash/workspace/map_rplidar/install/transforms/share/transforms/package.xml
+[4.035s] Invoked command in '/home/biswash/workspace/map_rplidar/build/transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/biswash/workspace/map_rplidar/install/mapping_bringup:/home/biswash/workspace/map_rplidar/install/dummy_robot_description:/home/biswash/navigation2_tutorials/install/nav2_mirrored_rectangles:/home/biswash/ws_ros2_camera/install/test_segmented_in_turtlebot:/home/biswash/ws_ros2_camera/install/ros2_opencv:/home/biswash/ws_ros2_camera/install/lane_segmentation_in_ros2:/home/biswash/ws_ros2_camera/install/face_detection_ros2:/home/biswash/workspace/install/src_gazebo_controller:/home/biswash/workspace/install/fl_nav2_helper:/home/biswash/workspace/tutorial_gpt/install/task_1_hello_ros_py:/opt/ros/humble /usr/bin/cmake --install /home/biswash/workspace/map_rplidar/build/transforms

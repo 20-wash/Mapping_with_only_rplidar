@@ -1,0 +1,37 @@
+[1.659s] Invoking command in '/home/biswash/workspace/map_rplidar/src/dummy_robot_description': PYTHONPATH=/home/biswash/workspace/map_rplidar/build/dummy_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dummy_robot_description build --build-base /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build install --record /home/biswash/workspace/map_rplidar/build/dummy_robot_description/install.log --single-version-externally-managed install_data
+[2.867s] running egg_info
+[2.869s] creating ../../build/dummy_robot_description/dummy_robot_description.egg-info
+[2.872s] writing ../../build/dummy_robot_description/dummy_robot_description.egg-info/PKG-INFO
+[2.872s] writing dependency_links to ../../build/dummy_robot_description/dummy_robot_description.egg-info/dependency_links.txt
+[2.873s] writing entry points to ../../build/dummy_robot_description/dummy_robot_description.egg-info/entry_points.txt
+[2.873s] writing requirements to ../../build/dummy_robot_description/dummy_robot_description.egg-info/requires.txt
+[2.873s] writing top-level names to ../../build/dummy_robot_description/dummy_robot_description.egg-info/top_level.txt
+[2.873s] writing manifest file '../../build/dummy_robot_description/dummy_robot_description.egg-info/SOURCES.txt'
+[2.880s] reading manifest file '../../build/dummy_robot_description/dummy_robot_description.egg-info/SOURCES.txt'
+[2.888s] writing manifest file '../../build/dummy_robot_description/dummy_robot_description.egg-info/SOURCES.txt'
+[2.888s] running build
+[2.888s] running build_py
+[2.889s] creating /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build
+[2.890s] creating /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build/lib
+[2.890s] creating /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build/lib/dummy_robot_description
+[2.891s] copying dummy_robot_description/__init__.py -> /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build/lib/dummy_robot_description
+[2.891s] running install
+[2.893s] running install_lib
+[2.897s] creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages/dummy_robot_description
+[2.897s] copying /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build/lib/dummy_robot_description/__init__.py -> /home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages/dummy_robot_description
+[2.899s] byte-compiling /home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages/dummy_robot_description/__init__.py to __init__.cpython-310.pyc
+[2.900s] running install_data
+[2.900s] creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/ament_index
+[2.901s] creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/ament_index/resource_index
+[2.901s] creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/ament_index/resource_index/packages
+[2.901s] copying resource/dummy_robot_description -> /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/ament_index/resource_index/packages
+[2.901s] copying package.xml -> /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/dummy_robot_description
+[2.902s] creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/dummy_robot_description/urdf
+[2.902s] copying urdf/robot.xacro -> /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/dummy_robot_description/urdf
+[2.903s] creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/dummy_robot_description/launch
+[2.906s] copying launch/robot_description_launch.py -> /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/dummy_robot_description/launch
+[2.906s] running install_egg_info
+[2.915s] Copying ../../build/dummy_robot_description/dummy_robot_description.egg-info to /home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages/dummy_robot_description-0.0.0-py3.10.egg-info
+[2.919s] running install_scripts
+[3.024s] writing list of installed files to '/home/biswash/workspace/map_rplidar/build/dummy_robot_description/install.log'
+[3.174s] Invoked command in '/home/biswash/workspace/map_rplidar/src/dummy_robot_description' returned '0': PYTHONPATH=/home/biswash/workspace/map_rplidar/build/dummy_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dummy_robot_description build --build-base /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build install --record /home/biswash/workspace/map_rplidar/build/dummy_robot_description/install.log --single-version-externally-managed install_data

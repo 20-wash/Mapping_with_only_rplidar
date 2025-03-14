@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/dummy_robot_description/dummy_robot_description.egg-info
+writing ../../build/dummy_robot_description/dummy_robot_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/dummy_robot_description/dummy_robot_description.egg-info/dependency_links.txt
+writing entry points to ../../build/dummy_robot_description/dummy_robot_description.egg-info/entry_points.txt
+writing requirements to ../../build/dummy_robot_description/dummy_robot_description.egg-info/requires.txt
+writing top-level names to ../../build/dummy_robot_description/dummy_robot_description.egg-info/top_level.txt
+writing manifest file '../../build/dummy_robot_description/dummy_robot_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/dummy_robot_description/dummy_robot_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/dummy_robot_description/dummy_robot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build
+creating /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build/lib
+creating /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build/lib/dummy_robot_description
+copying dummy_robot_description/__init__.py -> /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build/lib/dummy_robot_description
+running install
+running install_lib
+creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages/dummy_robot_description
+copying /home/biswash/workspace/map_rplidar/build/dummy_robot_description/build/lib/dummy_robot_description/__init__.py -> /home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages/dummy_robot_description
+byte-compiling /home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages/dummy_robot_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/ament_index
+creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/ament_index/resource_index
+creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/ament_index/resource_index/packages
+copying resource/dummy_robot_description -> /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/dummy_robot_description
+creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/dummy_robot_description/urdf
+copying urdf/robot.xacro -> /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/dummy_robot_description/urdf
+creating /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/dummy_robot_description/launch
+copying launch/robot_description_launch.py -> /home/biswash/workspace/map_rplidar/install/dummy_robot_description/share/dummy_robot_description/launch
+running install_egg_info
+Copying ../../build/dummy_robot_description/dummy_robot_description.egg-info to /home/biswash/workspace/map_rplidar/install/dummy_robot_description/lib/python3.10/site-packages/dummy_robot_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/biswash/workspace/map_rplidar/build/dummy_robot_description/install.log'
