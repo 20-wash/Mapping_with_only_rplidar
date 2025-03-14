@@ -3,8 +3,7 @@
 ## Overview
 A ROS 2-based package for mapping using **RPLiDAR** and **RF2O laser odometry**. This repository integrates RPLiDAR for scanning and RF2O for odometry estimation, allowing autonomous mapping in an environment.
 
-This is a package that make the 2D map of the environment with the help of RP lidar only. It only require RP Lidar to create the map. Instead you don't have the lidar, the bag file is attached herewith. 
-
+This is a package that make the 2D map of the environment with the help of RP lidar only. It only require RP Lidar to create the map. Instead you don't have the lidar, the bag file is attached herewith (a ROS bag file containing recorded LiDAR data is provided for testing). 
 
 ## 🛠 Features
 - **LIDAR-based Mapping**: Uses RPLiDAR for 2D mapping.
@@ -16,10 +15,10 @@ This is a package that make the 2D map of the environment with the help of RP li
 ```bash
 map_rplidar/
 ├── src/
-│   ├── rplidar_ros/            # Forked ; Publish /scan topic in "laser" frame
-│   ├── transforms/             # Package that launch static transformations necessary for the slam toolbox
-│   ├── rf2o_laser_odometry/    # Forked and modified; Publish /odom topic in "odom" frame  
-│   ├── mapping_bringup/        # This launches all the node in once.  
+│   ├── rplidar_ros/            # Forked package; publishes /scan in "laser" frame
+│   ├── transforms/             # Static transformations for SLAM Toolbox
+│   ├── rf2o_laser_odometry/    # Forked & modified; publishes /odom in "odom" frame  
+│   ├── mapping_bringup/        # Launches all nodes at once  
 ```
 
 
@@ -44,16 +43,18 @@ colcon build --symlink-install
 source install/setup.bash
 ```
 
-### ▶️ Running the Lauch File (If there is LiDAR)
+### ▶️ Running the Lauch File 
+#### With a Physical RPLiDAR
 ```bash
 ros2 launch mapping_bringup rp_lidar_slam_launch.py 
 ```
 
-### ▶️ Running the Lauch File (From BAG file)
+### ▶️ Running the Lauch File 
+#### Using a ROS Bag File
 ```bash
 ros2 launch mapping_bringup bag_rp_lidar_slam_launch.py 
 ```
-This plays the bag file, (the bag play rate is set as 0.1)
+The bag file is played at 0.1x speed.
 
 Launching the launch file
 ![alt text](image.png)
@@ -61,3 +62,8 @@ Launching the launch file
 
 Visualization in rviz. The rviz config is saved inside (rviz) folder inside mapping_bringup package. 
 ![alt text](image-1.png)
+
+ 
+A pre-recorded ROS bag file of RPLiDAR A1 is available for testing (Uploaded in google drive). Download it from:
+
+https://drive.google.com/drive/folders/1ac5flexDKSGLY9R8HUW-PeE8mqBDgZBo?usp=sharing
